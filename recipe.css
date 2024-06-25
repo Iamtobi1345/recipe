@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(128, 100%, 86%);
+    display:grid;
+    place-items: center;
+}
+
+.page{
+background-color: hsl(0, 0%, 100%);
+    width:50%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.prep{
+    background-color:hsl(30, 18%, 87%);
+    padding:10px;
+    border-radius: 10px;
+   
+}
+
+
+p{
+    font-size: 16px;
+}
+
+p{
+    color: hsl(24, 5%, 18%);
+    font-family: outfit;
+    font-weight: 400;
+   
+   
+}
+
+.subtittle , .tittle{
+    font-family: young serif;
+    font-weight:400;
+}
+
+.subtittle{
+    color: hsl(14, 45%, 36%);
+}
+
+.num{
+     margin-right:10px;
+
+    
+}
+
+.num{
+    color:hsl(14, 45%, 36%);
+}
+
+.cal{
+    margin-left:230px;
+}
+
+img{
+    width:98%;
+    border-radius: 10px;
+}
+
+.line{
+    display:flex;
+    gap:10px
+}
+
+.cal2{
+    margin-left: 270px;
+}
+
+.cal3{
+    margin-left: 250px;
+}
+
+.cal4{
+    margin-left: 270px;
+}
+
+@media (max-width:500px){
+   
+    .cal1{
+        margin-left: 40px;
+        padding: 0px;
+        margin-top: -20px;
+       
+    }
+
+    .cal2{
+        margin-left:80px ;
+    }
+
+    .cal3{
+        margin-left: 60px;
+    }
+    
+    .cal4{
+        margin-left:90px ;
+    }
+}
